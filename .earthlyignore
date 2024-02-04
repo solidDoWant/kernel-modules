@@ -1,0 +1,6 @@
+Earthfile
+.earthlyignore
+kernel
+.git
+*.o
+*.ko

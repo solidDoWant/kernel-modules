@@ -1,0 +1,55 @@
+{
+    "configurations": [
+        {
+            "name": "Linux x86",
+            "defines": [
+                "__KERNEL__",
+                "MODULE"
+            ],
+            "includePath": [
+                "${workspaceFolder}/kernel/master/arch/x86/include/",
+                "${workspaceFolder}/kernel/master/arch/x86/include/generated/",
+                "${workspaceFolder}/kernel/master/include/",
+                "${workspaceFolder}/kernel/master/arch/x86/include/uapi",
+                "${workspaceFolder}/kernel/master/arch/x86/include/generated/uapi",
+                "${workspaceFolder}/kernel/master/include/uapi",
+                "${workspaceFolder}/kernel/master/include/generated/uapi",
+                "${workspaceFolder}/kernel/master/drivers/pci/controller/dwc"
+            ],
+            "compilerPath": "/usr/bin/x86_64-linux-gnu-gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++11",
+            "intelliSenseMode": "gcc-x64",
+            "configurationProvider": "ms-vscode.makefile-tools",
+            "compilerArgs": [
+                "-nostdinc"
+            ]
+        },
+        {
+            "name": "Linux arm64",
+            "defines": [
+                "__KERNEL__",
+                "MODULE"
+            ],
+            "includePath": [
+                "${workspaceFolder}/kernel/master/arch/arm64/include/",
+                "${workspaceFolder}/kernel/master/arch/arm64/include/generated/",
+                "${workspaceFolder}/kernel/master/include/",
+                "${workspaceFolder}/kernel/master/arch/arm64/include/uapi",
+                "${workspaceFolder}/kernel/master/arch/arm64/include/generated/uapi",
+                "${workspaceFolder}/kernel/master/include/uapi",
+                "${workspaceFolder}/kernel/master/include/generated/uapi",
+                "${workspaceFolder}/kernel/master/drivers/pci/controller/dwc"
+            ],
+            "compilerPath": "/usr/bin/aarch64-linux-gnu-gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++11",
+            "intelliSenseMode": "gcc-arm64",
+            "configurationProvider": "ms-vscode.makefile-tools",
+            "compilerArgs": [
+                "-nostdinc"
+            ]
+        }
+    ],
+    "version": 4
+}

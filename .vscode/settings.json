@@ -1,0 +1,15 @@
+{
+    "git.repositoryScanIgnoredFolders": [
+        "kernel/master"
+    ],
+    "files.associations": {
+        "kernel.h": "c",
+        "const.h": "c",
+        "module.h": "c",
+        "list.h": "c",
+        "container_of.h": "c",
+        "platform_device.h": "c",
+        "pcie-designware.h": "c",
+        "phy.h": "c"
+    }
+}
